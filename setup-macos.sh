@@ -20,6 +20,8 @@ nvm install lts
 goenv install latest
 rbenv install 2.6.10
 # TODO: pyenv latest
+mkdir ~/Developer
+mkdir ~/Developer/Code
 
 # Setup & Launch OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
