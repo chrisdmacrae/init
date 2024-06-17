@@ -17,6 +17,8 @@ brew "gnupg" if OS.mac?
 # Applications
 cask "visual-studio-code"
 cask "docker"
+cask "slack"
+cask "discord"
 cask "rectangle" if OS.mac?
 mas "Things 3", id: 904280696 if OS.mac?
 mas "Craft", id: 1487937127 if OS.mac?
