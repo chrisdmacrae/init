@@ -1,4 +1,5 @@
 # Setup brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -O https://raw.githubusercontent.com/chrisdmacrae/init/main/.Brewfile
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/christophermacrae/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
